@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MCU Watching Order</title>
+
+<style>
+body {
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+</style>
+
 </head>
 
-<body style="background:black;color:white;text-align:center;font-family:Arial;">
+<body>
 
 <h1>MCU Watching Order 🎬</h1>
 
@@ -18,16 +51,15 @@ Avengers: Infinity War <br>
 Avengers: Endgame
 </p>
 
-<button onclick="show()" style="padding:10px 20px;font-size:18px;">
-See Full Order 👇
-</button>
+<button onclick="show()">See Full Order 👇</button>
 
 <script>
 function show() {
   document.body.innerHTML = `
-  <div style="margin-top:40vh;font-size:40px;">
-  🎉 HAPPY BIRTHDAY 🎉 <br>
-  Shanuuu 💌
+  <div style="margin-top:35vh;font-size:40px;">
+    🎉 HAPPY BIRTHDAY 🎉 <br>
+    <span style="color:pink;">Shanuuu 💌</span> <br><br>
+    💖 Stay amazing always 💖
   </div>`;
 }
 </script>
